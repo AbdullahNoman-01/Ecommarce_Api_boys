@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 CSRF_TRUSTED_ORIGINS = [
-    'https://ecommarce-api-boys.onrender.com/','http://localhost:8000'
+    'https://ecommarce-api-boys.onrender.com','http://localhost:8000'
 ],
 
 
