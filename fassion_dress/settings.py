@@ -26,10 +26,7 @@ SECRET_KEY = 'django-insecure-+jbm56ep*ev_rao@kv$+hjdg$-gk!(g=odpa#-qfzo35xwklbf
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = [
-    'https://ecommarce-api-boys.onrender.com','http://localhost:8000'
-],
-
+CSRF_TRUSTED_ORIGINS = ['https://ecommarce-api-boys.onrender.com','http://localhost:8000']
 
 # Application definition
 
