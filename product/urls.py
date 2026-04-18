@@ -5,7 +5,8 @@ from .import views
 
 # Create a router and register our ViewSets with it.
 router = DefaultRouter()
-router.register("", views.ProductViewSet)
+router.register("demo_product", views.ProductViewSet)
+router.register("summar_product", views.SummarViewSet)
 
 
 urlpatterns = [
