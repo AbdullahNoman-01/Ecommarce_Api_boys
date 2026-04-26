@@ -2,8 +2,6 @@ from rest_framework import serializers
 from .import models
 
 class ProductSerializer(serializers.ModelSerializer):
-    brand = serializers.StringRelatedField(many=False)
-    category = serializers.StringRelatedField(many=False)
     class Meta:
         model = models.Product
         fields = "__all__"
